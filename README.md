@@ -7,6 +7,7 @@ This repository contains a result of preparation of the final assignment for Cou
 * CodeBook.md - a code book describing this tidy data set. 
 
 The tidy data set was obtained in the following way:
+
 1. Download data from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 2. Unzip it in some directory.
 3. Load the "run_analysis.R" script with the command
