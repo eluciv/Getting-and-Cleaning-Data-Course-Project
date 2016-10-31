@@ -1,7 +1,7 @@
 # Code Book
 This code book describes the data set stored in "result.txt" file.
 The data set can be read using the following command:
-    read.table("./result/tidy_data_set.txt")
+    read.table("./tidy_data_set.txt")
 
 ## Description
 This data set is a result of preparation of the final assignment for Coursera's "Getting and Cleaning Data" course. It was derived from the data that can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
