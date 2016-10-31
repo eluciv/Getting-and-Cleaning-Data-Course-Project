@@ -1,7 +1,7 @@
 # Code Book
 This code book describes the data set stored in "result.txt" file.
 The data set can be read using the following command:
-    read.table("./result/tidy_data_set.txt")
+    read.table("./tidy_data_set.txt")
 
 ## Description
 This data set is a result of preparation of the final assignment for Coursera's "Getting and Cleaning Data" course. It was derived from the data that can be downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones .
@@ -16,102 +16,102 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-These signals were used to estimate variables of the feature vector for each pattern:  
+These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* travityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 The data set is grouped by activity and subject and contains mean values of each variable.
 
 ## Variables
-activity  -- activity name. One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-subject_id  -- id of a subject              
+* activity  -- activity name. One of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* subject_id  -- id of a subject              
 
 Other variables are the means of corresponding signals grouped by activity and sunject_id:
-tBodyAcc_mean_X           
-tBodyAcc_mean_Y           
-tBodyAcc_mean_Z           
-tGravityAcc_mean_X        
-tGravityAcc_mean_Y        
-tGravityAcc_mean_Z        
-tBodyAccJerk_mean_X       
-tBodyAccJerk_mean_Y       
-tBodyAccJerk_mean_Z       
-tBodyGyro_mean_X          
-tBodyGyro_mean_Y          
-tBodyGyro_mean_Z          
-tBodyGyroJerk_mean_X      
-tBodyGyroJerk_mean_Y      
-tBodyGyroJerk_mean_Z      
-tBodyAccMag_mean_         
-tGravityAccMag_mean_      
-tBodyAccJerkMag_mean_     
-tBodyGyroMag_mean_        
-tBodyGyroJerkMag_mean_    
-fBodyAcc_mean_X           
-fBodyAcc_mean_Y           
-fBodyAcc_mean_Z           
-fBodyAccJerk_mean_X       
-fBodyAccJerk_mean_Y       
-fBodyAccJerk_mean_Z       
-fBodyGyro_mean_X          
-fBodyGyro_mean_Y          
-fBodyGyro_mean_Z          
-fBodyAccMag_mean_         
-fBodyBodyAccJerkMag_mean_ 
-fBodyBodyGyroMag_mean_    
-fBodyBodyGyroJerkMag_mean_
-tBodyAcc_std_X            
-tBodyAcc_std_Y            
-tBodyAcc_std_Z            
-tGravityAcc_std_X         
-tGravityAcc_std_Y         
-tGravityAcc_std_Z         
-tBodyAccJerk_std_X        
-tBodyAccJerk_std_Y        
-tBodyAccJerk_std_Z        
-tBodyGyro_std_X           
-tBodyGyro_std_Y           
-tBodyGyro_std_Z           
-tBodyGyroJerk_std_X       
-tBodyGyroJerk_std_Y       
-tBodyGyroJerk_std_Z       
-tBodyAccMag_std_          
-tGravityAccMag_std_       
-tBodyAccJerkMag_std_      
-tBodyGyroMag_std_         
-tBodyGyroJerkMag_std_     
-fBodyAcc_std_X            
-fBodyAcc_std_Y            
-fBodyAcc_std_Z            
-fBodyAccJerk_std_X        
-fBodyAccJerk_std_Y        
-fBodyAccJerk_std_Z        
-fBodyGyro_std_X           
-fBodyGyro_std_Y           
-fBodyGyro_std_Z           
-fBodyAccMag_std_          
-fBodyBodyAccJerkMag_std_  
-fBodyBodyGyroMag_std_     
-fBodyBodyGyroJerkMag_std_
+* tBodyAcc_mean_X           
+* tBodyAcc_mean_Y           
+* tBodyAcc_mean_Z           
+* tGravityAcc_mean_X        
+* tGravityAcc_mean_Y        
+* tGravityAcc_mean_Z        
+* tBodyAccJerk_mean_X       
+* tBodyAccJerk_mean_Y       
+* tBodyAccJerk_mean_Z       
+* tBodyGyro_mean_X          
+* tBodyGyro_mean_Y          
+* tBodyGyro_mean_Z          
+* tBodyGyroJerk_mean_X      
+* tBodyGyroJerk_mean_Y      
+* tBodyGyroJerk_mean_Z      
+* tBodyAccMag_mean_         
+* tGravityAccMag_mean_      
+* tBodyAccJerkMag_mean_     
+* tBodyGyroMag_mean_        
+* tBodyGyroJerkMag_mean_    
+* fBodyAcc_mean_X           
+* fBodyAcc_mean_Y           
+* fBodyAcc_mean_Z           
+* fBodyAccJerk_mean_X       
+* fBodyAccJerk_mean_Y       
+* fBodyAccJerk_mean_Z       
+* fBodyGyro_mean_X          
+* fBodyGyro_mean_Y          
+* fBodyGyro_mean_Z          
+* fBodyAccMag_mean_         
+* fBodyBodyAccJerkMag_mean_ 
+* fBodyBodyGyroMag_mean_    
+* fBodyBodyGyroJerkMag_mean_
+* tBodyAcc_std_X            
+* tBodyAcc_std_Y            
+* tBodyAcc_std_Z            
+* tGravityAcc_std_X         
+* tGravityAcc_std_Y         
+* tGravityAcc_std_Z         
+* tBodyAccJerk_std_X        
+* tBodyAccJerk_std_Y        
+* tBodyAccJerk_std_Z        
+* tBodyGyro_std_X           
+* tBodyGyro_std_Y           
+* tBodyGyro_std_Z           
+* tBodyGyroJerk_std_X       
+* tBodyGyroJerk_std_Y       
+* tBodyGyroJerk_std_Z       
+* tBodyAccMag_std_          
+* tGravityAccMag_std_       
+* tBodyAccJerkMag_std_      
+* tBodyGyroMag_std_         
+* tBodyGyroJerkMag_std_     
+* fBodyAcc_std_X            
+* fBodyAcc_std_Y            
+* fBodyAcc_std_Z            
+* fBodyAccJerk_std_X        
+* fBodyAccJerk_std_Y        
+* fBodyAccJerk_std_Z        
+* fBodyGyro_std_X           
+* fBodyGyro_std_Y           
+* fBodyGyro_std_Z           
+* fBodyAccMag_std_          
+* fBodyBodyAccJerkMag_std_  
+* fBodyBodyGyroMag_std_     
+* fBodyBodyGyroJerkMag_std_
