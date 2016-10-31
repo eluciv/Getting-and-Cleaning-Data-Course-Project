@@ -1,6 +1,8 @@
 library(dplyr)
 
-run_analysis <- function(data_directory = ".") {
+run_analysis <- function(data_dir = ".") {
+  
+  data_directory <- paste(data_dir, "/UCI HAR Dataset", sep = "")
   
   read_and_prepare_data <- function(data_set_file_name, activity_id_file_name, subject_id_file_name, activity_labels, feature_names) {
  
